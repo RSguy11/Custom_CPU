@@ -1,13 +1,15 @@
 
 Updates for 3-21-2024:
 
-	After you guys left figure out matteo was right the .hex file was in decimal and wasnt responding
-	to the readmemh obv, I tried readmemd which compiled but the model sim didnt reonize the function
-	I reverted back to readmemh and created a new file called testHEXdata.hex. (for some reason wont open
-	in quartis must be opened seperately in notepad) where I input some test values. It worked and stores all 
-	values in the array. I have them in two hex digit but pretty sure you can change it to 8. Tested different
-	values and it still worked.
-																									-Sean
+	After you guys left I figured out Matteo was right the .hex file was in decimal and wasn't responding
+	to the "$readmemh" obv, I tried "$readmemd" which compiled but the model sim didn't recognize the function
+	I reverted to "$readmemh" and created a new file called testHEXdata.hex. (for some reason won't open
+	in Quartis must be opened separately in Notepad) where I input some test values. It works and stores all 
+	values in the array. I have them in two hex digits but you can change it to 8. I tested different
+	values and it still worked.								
+												
+												-Sean																		
 Updates for __-__-____:																									
-	-Just write what you did if solo work so team can catch up.															
-																									-name
+	-Just write what you did if solo work so the team can catch up.															
+																									
+												-Name
