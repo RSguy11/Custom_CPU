@@ -1,6 +1,5 @@
 
 Updates for 3-21-2024:
-
 	After you guys left I figured out Matteo was right the .hex file was in decimal and wasn't responding
 	to the "$readmemh" obv, I tried "$readmemd" which compiled but the model sim didn't recognize the function
 	I reverted to "$readmemh" and created a new file called testHEXdata.hex. (for some reason won't open
@@ -9,6 +8,14 @@ Updates for 3-21-2024:
 	values and it still worked.								
 												
 												-Sean																		
+Updates for 3-25-2024:	
+	Worked On the Ram, Changed the testbench to be able to change the address, address needed to be 8'b instead
+	Of hex in new file. Added some print statements for when you run the model sim. The Wren signal will act properly
+	in test bench but will not be propogated properly to the ram module, tried a few things but couldnt get it to work.
+	If the signal propogates everything should be set up to allow to read and write to RAM memory
+	
+																									
+												-Sean
 Updates for __-__-____:																									
 	-Just write what you did if solo work so the team can catch up.															
 																									
