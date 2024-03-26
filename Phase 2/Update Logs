@@ -6,17 +6,26 @@ Updates for 3-21-2024:
 	in Quartis must be opened separately in Notepad) where I input some test values. It works and stores all 
 	values in the array. I have them in two hex digits but you can change it to 8. I tested different
 	values and it still worked.								
-												
+
 												-Sean																		
 Updates for 3-25-2024:	
-	Worked On the Ram, Changed the testbench to be able to change the address, address needed to be 8'b instead
-	Of hex in new file. Added some print statements for when you run the model sim. The Wren signal will act properly
-	in test bench but will not be propogated properly to the ram module, tried a few things but couldnt get it to work.
-	If the signal propogates everything should be set up to allow to read and write to RAM memory
-	
+	Worked On the RAM and changed the testbench to be able to change the address, the address needed to be 8'b instead
+	Of hex in a new file. Added some print statements for when you run the model sim. The Wren signal will act properly
+	in the test bench but will not be propagated properly to the RAM module, tried a few things but couldn't get it to work.
+	If the signal propagates everything should be set up to allow reading and writing to the RAM
 																									
 												-Sean
+Updates for 3-26-2024:			
+	Turns out the datapath initialization was incorrect, so fixed that, after I updated the bus adding RAMout as the enable
+	to the bus and BusMuxInRam for the import from the RAM. Didn't want to do timings so RAM initialization still uses MDataIn
+	It will take data and have the correct Wren. We updated the testbench for the RAM but the timings are still slightly off.
+	So it won't engage Wren in time and the MdataIn will revert to 0 from its previous value. It then loads 0 into the 
+	memory[address] instead of the correct value. Other than that, I should be able to read and write into a memory array acting as RAM
+	just need the correct timings, I tried for 30 min but it was 1 am and I gave up :)
+																									
+												-Sean 
 Updates for __-__-____:																									
 	-Just write what you did if solo work so the team can catch up.															
 																									
 												-Name
+
