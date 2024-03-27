@@ -24,6 +24,11 @@ Updates for 3-26-2024:
 	just need the correct timings, I tried for 30 min but it was 1 am and I gave up :)
 																									
 												-Sean 
+Updates for 3-26(2)-2024:																									
+	-I tried to connect The ram to the bus instead of directly from MdataIn.It did not work and I got kicked out of ILC before I could 
+	Fully figure it out, think it has something to do with the bus/ datapath for RAMin, and RAMout not being set up properly
+																									
+												-Sean
 Updates for __-__-____:																									
 	-Just write what you did if solo work so the team can catch up.															
 																									
