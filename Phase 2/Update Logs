@@ -29,8 +29,13 @@ Updates for 3-26(2)-2024:
 	Fully figure it out, think it has something to do with the bus/ datapath for RAMin, and RAMout not being set up properly
 																									
 												-Sean
+Updates for 3-26-2024:																									
+	-Integrated select and encode logic and (theoretically) it works. What still does not work is our IR data value, which is not output properly from the TBIR to the waveforms,
+	Just showing "xxxxxxxxxx". This is the first order of business.
+																									
+												-Name
+
 Updates for __-__-____:																									
 	-Just write what you did if solo work so the team can catch up.															
 																									
 												-Name
-
