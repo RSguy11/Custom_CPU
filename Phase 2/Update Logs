@@ -33,7 +33,13 @@ Updates for 3-26-2024:
 	-Integrated select and encode logic and (theoretically) it works. What still does not work is our IR data value, which is not output properly from the TBIR to the waveforms,
 	Just showing "xxxxxxxxxx". This is the first order of business.
 																									
-												-Name
+												-Jacob
+
+Updates for 3-28-2024:																									
+	-Got Select encode logic working, we now need to figure out timings for instructions and also build the PC counter.															
+																									
+												-Jacob
+
 
 Updates for __-__-____:																									
 	-Just write what you did if solo work so the team can catch up.															
