@@ -50,3 +50,8 @@ Updates for 3-31-2024:
 	-Select+Encode logic work, values loaded into registers via ldw instr, then did add instr. Next step is conff														
 																									
 												-Everyone
+
+Updates for 3-31-2024(2):																									
+	-Started on CONFF, connected it to bus and whatnot, now we started on the tbBr which would implement a branch instruction and test that conff works, but we still need to do that.														
+																									
+												-Everyone
